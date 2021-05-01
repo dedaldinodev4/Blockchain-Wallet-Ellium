@@ -1,0 +1,33 @@
+{
+  "name": "blockchain-wallet-ellium",
+  "version": "1.0.0",
+  "description": "Ellium is a simple blockchain wallet based on the devices and clients. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedaldinodev4/Blockchain-Wallet-Ellium.git"
+  },
+  "keywords": [
+    "block",
+    "node"
+  ],
+  "author": "Dedaldino Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dedaldinodev4/Blockchain-Wallet-Ellium/issues"
+  },
+  "homepage": "https://github.com/dedaldinodev4/Blockchain-Wallet-Ellium#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
